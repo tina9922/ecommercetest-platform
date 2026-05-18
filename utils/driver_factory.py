@@ -81,4 +81,10 @@ As soon as push completes:
 .github/workflows/regression.yml
 
 and automatically triggers pipeline.
+
+“Queued” is actually a good sign—it means GitHub accepted your workflow and is about to run it, but it hasn’t started executing yet.
+If you triggered multiple commits quickly:
+
+GitHub queues them
+Only a limited number run in parallel
 '''
