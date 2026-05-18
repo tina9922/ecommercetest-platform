@@ -49,13 +49,23 @@ If interviewer asks:
 Say:
 
 “I implemented a layered Page Object Model using a BasePage abstraction to encapsulate Selenium interactions, 
-added explicit waits to reduce flakiness and relaibility, and separated test logic from UI actions to improve maintainability and scalability and to avoid duplication.”
+added explicit waits to reduce flakiness and improve test relaibility, and separated test logic from UI actions to improve maintainability and scalability and to avoid duplication.”
 
 Interview Line (Use This)
 
 “I automated an end-to-end add-to-cart workflow using a layered Page Object Model, 
 
 validating UI state through cart badge updates and item verification in the cart page.”
+
+Interview gold:
+
+“I added custom error handling for better debugging”
+
+Your Resume Value Just Jumped
+
+Now you can say:
+
+Built a scalable automation framework with UI and API testing layers integrated into a CI/CD pipeline using GitHub Actions.
 
 💥 That answer = senior SDET
 
@@ -83,7 +93,4 @@ Selenium keeps checking:
 Is "inventory" in current URL?
 Once it becomes true → test proceeds
 
-Interview gold:
-
-“I added custom error handling for better debugging”
 '''
